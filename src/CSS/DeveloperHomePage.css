@@ -1,0 +1,88 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #8e9499;
+    color: rgb(174, 23, 23);
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Task Container */
+  .task-container {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  /* Buttons */
+  .view-button, .logout-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout-button {
+    position: absolute;
+  top: 90px;
+  right: 490px;
+  background-color: #e63946; /* Softer red */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  h1{
+    background-color: #b5b1b1;
+  }
